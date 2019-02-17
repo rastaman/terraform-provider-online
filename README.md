@@ -14,24 +14,24 @@ Requirements
 Building The Provider
 ---------------------
 
-Clone repository to: `$GOPATH/src/github.com/src-d/terraform-provider-online`.
+Clone repository to: `$GOPATH/src/github.com/rastaman/terraform-provider-online`.
 
 ```sh
-$ mkdir -p $GOPATH/src/github.com/src-d; cd $GOPATH/src/github.com/src-d
-$ git clone git@github.com:src-d/terraform-provider-online
+$ mkdir -p $GOPATH/src/github.com/rastaman; cd $GOPATH/src/github.com/rastaman
+$ git clone git@github.com:rastaman/terraform-provider-online
 ```
 
 Enter the provider directory and build the provider:
 
 ```sh
-$ cd $GOPATH/src/github.com/src-d/terraform-provider-online
+$ cd $GOPATH/src/github.com/rastaman/terraform-provider-online
 $ make build
 ```
 
 To install it in your home directory to test the provider:
 
 ```sh
-$ cd $GOPATH/src/github.com/src-d/terraform-provider-online
+$ cd $GOPATH/src/github.com/rastaman/terraform-provider-online
 $ make local-install
 ```
 
@@ -41,12 +41,12 @@ Installing the provider
 ### Installation from binaries (recommended)
 
 The recommended way to install *terraform-provider-online* is use the binary
-distributions from the [Releases](https://github.com/src-d/terraform-provider-online/releases) page. The packages are available for Linux and macOS.
+distributions from the [Releases](https://github.com/rastaman/terraform-provider-online/releases) page. The packages are available for Linux and macOS.
 
 Download and uncompress the latest release for your OS. This example uses the linux binary.
 
 ```sh
-$ wget https://github.com/src-d/terraform-provider-online/releases/download/v0.1.0/terraform-provider-online_v0.1.0_linux_amd64.tar.gz
+$ wget https://github.com/rastaman/terraform-provider-online/releases/download/v0.1.0/terraform-provider-online_v0.1.0_linux_amd64.tar.gz
 $ tar -xvf terraform-provider-online*.tar.gz
 ```
 

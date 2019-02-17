@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/src-d/terraform-provider-online/online"
+	"github.com/rastaman/terraform-provider-online/online"
 
 	"github.com/hashicorp/terraform/helper/schema"
 )

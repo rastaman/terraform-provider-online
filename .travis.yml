@@ -2,7 +2,7 @@ sudo: false
 language: go
 go:
 - 1.11
-go_import_path: github.com/src-d/terraform-provider-online
+go_import_path: github.com/rastaman/terraform-provider-online
 script:
 - make test
 - make vet
